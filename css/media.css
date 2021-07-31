@@ -24,6 +24,9 @@
     label{
         font-size: 17px;
     }
+    .out{
+        height: 360px;
+    }
 }
 @media (max-width: 480px){
     .container{
@@ -50,7 +53,7 @@
         height: 120px;
     }
     .out{
-        background-color: #E1E1BA;
+        background-color: #E5EBDB;
         height: 300px;
         border-radius: 20px;
         margin-top: 50px;
@@ -60,6 +63,17 @@
 }
 @media  (max-width: 360px){
     .container{
-        max-width: 300px ;
+        max-width: 320px ;
+    }
+    .out{
+        background-color: #E5EBDB;
+        height: 380px;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 15px;
+        font-size: 14px;
+    }
+    label{
+        font-size: 16px;
     }
 }
