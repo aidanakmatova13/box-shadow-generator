@@ -35,5 +35,4 @@ function cssGenerator(){
         box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} inset`
     }
 }
-console.log(colorBox)
 cssGenerator()
