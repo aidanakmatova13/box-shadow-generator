@@ -1,0 +1,65 @@
+@media (max-width: 1400px) {
+    .container{
+        max-width: 1170px;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+    .box{
+        width: 170px;
+        height: 170px;
+    }
+    label{
+        font-size: 17px;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        max-width: 400px;
+    }
+    body{
+        background: url("../images/p-448-pai-208.jpg");
+    }
+    *{
+        background: unset;
+    }
+    .title{
+        font-size: 30px;
+        color: darkblue;
+    }
+    .desc{
+        font-size: 22px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .box{
+        width: 120px;
+        height: 120px;
+    }
+    .out{
+        background-color: #E1E1BA;
+        height: 300px;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+@media  (max-width: 360px){
+    .container{
+        max-width: 300px ;
+    }
+}
