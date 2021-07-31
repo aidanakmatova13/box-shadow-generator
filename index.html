@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h2 class="title">CSS Box Shadow Generator</h2>
+    <p class="desc">Generate a perfect box shadow!</p>
+    <div class="row">
+        <div class="col-6">
+        <div><label>Box Radius</label><input type="range" class = 'border-radius' max="50" value="0"></div>
+        <div><label>Box Shadow Horizontal</label><input type="range" class = 'offsetX' value="10"></div>
+        <div><label>Box Shadow Vertical</label><input type="range" class = 'offsetY' value="10"></div>
+        <div><label>Box Shadow Blur</label><input type="range" class = 'blur' value="10"></div>
+        <div><label>Box Shadow Spread</label><input type="range" class = 'spread' value="10"></div>
+        <div><label>Box Shadow Color</label><input type="color" class = 'shadowColor'></div>
+        <div><label>Box Color</label><input type="color" class = 'color'></div>
+    </div>
+        <div class="col-6">
+            <label>Inset
+                <input type="radio" class="outset" id="inset" name="type" checked>
+            </label>
+            <label>Outset
+                <input type="radio" class="inset" name="type">
+            </label>
+            <div class="box"></div>
+            <div class="out"></div>
+        </div>
+    </div>
+</div>
+<script src = './script.js'></script>
+</body>
+</html>

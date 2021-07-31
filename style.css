@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    background: url("./images/pf-s70-ae-3079a_1.jpg");
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title{
+    font-size: 50px;
+    color: #0075FF;
+    font-family: 'Handlee', cursive;
+    text-shadow: 10px 10px 5px rgba(139, 196, 234, 0.58);
+    display: inline;
+}
+.desc{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    color: darkblue;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-6{
+    padding: 0 15px;
+    width: 50%;
+}
+.box{
+    width:200px;
+    height: 200px;
+    background-color: black;
+}
+.out{
+    background-color: lightgrey;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
+input{
+    margin-bottom: 40px;
+}
+label{
+    font-size: 25px;
+}
