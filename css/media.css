@@ -3,7 +3,7 @@
         max-width: 1170px;
     }
     .outMobile{
-        display: none;
+        display: unset;
     }
 }
 @media (max-width: 1200px) {
