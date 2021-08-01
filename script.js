@@ -37,7 +37,7 @@ function cssGenerator(){
     box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
     box.style.backgroundColor = `${boxColor.value}`
 
-    borRadiusOut.textContent = `${borderRadius.value}`
+    borRadiusOut.textContent = `${borderRadius.value}px`
     offsetXOut.textContent = `${offsetX.value}px`
     offsetYOut.textContent = `${offsetY.value}px`
     blurOut.textContent = `${blur.value}px`

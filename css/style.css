@@ -5,8 +5,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
-    /*background: url("../images/rm278-boom-124-x.jpg");*/
+    background: url("../images/rm278-boom-124-x.jpg");
 }
 .container{
     max-width: 1170px;
@@ -47,7 +46,6 @@ body{
     border-radius: 20px;
     margin-top: 50px;
     padding: 20px;
-    font-size: 50px;
 }
 input{
     margin-bottom: 40px;
