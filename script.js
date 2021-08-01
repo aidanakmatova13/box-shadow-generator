@@ -9,7 +9,11 @@ const boxColor = document.querySelector('.boxColor')
 const out = document.querySelector('.out')
 const outset = document.querySelector('.outset')
 const inset = document.querySelector('.inset')
-const outValue = document.querySelector('.outValue')
+const borRadiusOut = document.querySelector('.borRadiusOut')
+const offsetXOut = document.querySelector('.offsetXOut')
+const offsetYOut = document.querySelector('.offsetYOut')
+const blurOut = document.querySelector('.blurOut')
+const spreadOut = document.querySelector('.spreadOut')
 
 borderRadius.oninput = cssGenerator //навешываем функцию //навесим изменение
 offsetX.oninput = cssGenerator
@@ -18,22 +22,31 @@ blur.oninput = cssGenerator
 spread.oninput = cssGenerator
 shadowColor.oninput = cssGenerator
 boxColor.oninput = cssGenerator
+
 out.oninput = cssGenerator
 outset.oninput = cssGenerator
 inset.oninput = cssGenerator
-outValue.oninput = cssGenerator
+borRadiusOut.oninput = cssGenerator()
+offsetXOut.oninput = cssGenerator
+offsetYOut.oninput = cssGenerator
+blurOut.oninput = cssGenerator
+spreadOut.oninput = cssGenerator
 
 function cssGenerator(){
     box.style.borderRadius = borderRadius.value + '%'
     box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
     box.style.backgroundColor = `${boxColor.value}`
 
+    borRadiusOut.textContent = `${borderRadius.value}`
+    offsetXOut.textContent = `${offsetX.value}px`
+    offsetYOut.textContent = `${offsetY.value}px`
+    blurOut.textContent = `${blur.value}px`
+    spreadOut.textContent = `${spread.value}px`
 
     out.innerHTML = `Box-shadow:  ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} <br>`
     out.innerHTML += `- webkit-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} <br>`
     out.innerHTML += `- mox-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
 
-    outValue.textContent = `${offsetX.value}px`
 
     if (outset.checked){
         box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`

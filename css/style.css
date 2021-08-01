@@ -5,6 +5,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Poppins', sans-serif;
+    background-color: white;
     /*background: url("../images/rm278-boom-124-x.jpg");*/
 }
 .container{
@@ -33,9 +34,7 @@ body{
     width: 50%;
 }
 .outValue{
-    background-color: #fffffd;
-    height: 50px;
-    font-size: 18px;
+    display: inline;
 }
 .box{
     width:200px;
