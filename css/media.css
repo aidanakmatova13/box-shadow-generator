@@ -35,9 +35,6 @@
     body{
         background: url("../images/p-448-pai-208.jpg");
     }
-    *{
-        background: unset;
-    }
     .title{
         font-size: 30px;
         color: darkblue;

@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
-    background: url("../images/rm278-boom-124-x.jpg");
 }
 body{
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Poppins', sans-serif;
+    background: url("../images/rm278-boom-124-x.jpg");
 }
 .container{
     max-width: 1170px;
@@ -35,6 +35,7 @@ body{
 .box{
     width:200px;
     height: 200px;
+    background-color: #0075FF;
 }
 .out{
     background-color: lightgrey;
