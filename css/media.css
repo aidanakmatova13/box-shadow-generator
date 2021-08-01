@@ -2,9 +2,6 @@
     .container{
         max-width: 1170px;
     }
-    .out{
-        background-color: #fffffd;
-    }
 }
 @media (max-width: 1200px) {
     .container {
@@ -12,7 +9,6 @@
     }
     .out{
         height: 200px;
-        background-color: #fffffd;
     }
 }
 @media (max-width: 992px) {
@@ -21,7 +17,6 @@
     }
     .out{
         height: 200px;
-        background-color: #f7e5e1;
     }
 }
 @media (max-width: 768px) {

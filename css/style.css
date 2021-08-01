@@ -5,7 +5,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Poppins', sans-serif;
-    background: url("../images/rm278-boom-124-x.jpg");
+    /*background: url("../images/rm278-boom-124-x.jpg");*/
 }
 .container{
     max-width: 1170px;
@@ -32,6 +32,11 @@ body{
     padding: 0 15px;
     width: 50%;
 }
+.outValue{
+    background-color: #fffffd;
+    height: 50px;
+    font-size: 18px;
+}
 .box{
     width:200px;
     height: 200px;
@@ -43,7 +48,7 @@ body{
     border-radius: 20px;
     margin-top: 50px;
     padding: 20px;
-    font-size: 18px;
+    font-size: 50px;
 }
 input{
     margin-bottom: 40px;

@@ -9,8 +9,9 @@ const boxColor = document.querySelector('.boxColor')
 const out = document.querySelector('.out')
 const outset = document.querySelector('.outset')
 const inset = document.querySelector('.inset')
+const outValue = document.querySelector('.outValue')
 
-borderRadius.oninput = cssGenerator //навешываем функцию
+borderRadius.oninput = cssGenerator //навешываем функцию //навесим изменение
 offsetX.oninput = cssGenerator
 offsetY.oninput = cssGenerator
 blur.oninput = cssGenerator
@@ -20,15 +21,20 @@ boxColor.oninput = cssGenerator
 out.oninput = cssGenerator
 outset.oninput = cssGenerator
 inset.oninput = cssGenerator
+outValue.oninput = cssGenerator
 
 function cssGenerator(){
     box.style.borderRadius = borderRadius.value + '%'
     box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
     box.style.backgroundColor = `${boxColor.value}`
 
+
     out.innerHTML = `Box-shadow:  ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} <br>`
     out.innerHTML += `- webkit-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} <br>`
     out.innerHTML += `- mox-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
+
+    outValue.textContent = `${offsetX.value}px`
+
     if (outset.checked){
         box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
     } else {
