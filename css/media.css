@@ -26,6 +26,7 @@
     }
     .out{
         height: 360px;
+        background-color: #f7e5e1;
     }
 }
 @media (max-width: 480px){
