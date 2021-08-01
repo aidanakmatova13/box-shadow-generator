@@ -2,6 +2,9 @@
     .container{
         max-width: 1170px;
     }
+    .outMobile{
+        display: unset;
+    }
 }
 @media (max-width: 1200px) {
     .container {
@@ -39,6 +42,9 @@
     .container{
         max-width: 400px;
     }
+    .col-6{
+        padding: 0 10px;
+    }
     body{
         background: url("../images/p-448-pai-208.jpg");
     }
@@ -63,6 +69,12 @@
         margin-top: 50px;
         padding: 15px;
         font-size: 15px;
+    }
+    .outValue{
+        margin-left: 7px;
+    }
+    .outTablet{
+        display: unset;
     }
 }
 @media  (max-width: 360px){
