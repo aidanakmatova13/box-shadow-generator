@@ -13,6 +13,9 @@
     .out{
         height: 200px;
     }
+    .outMobile{
+        display: unset;
+    }
 }
 @media (max-width: 992px) {
     .container {
