@@ -3,7 +3,10 @@
         max-width: 1170px;
     }
     .outMobile{
-        display: unset;
+        display: none;
+    }
+    .outTablet{
+        display: inline;
     }
 }
 @media (max-width: 1200px) {
@@ -15,6 +18,9 @@
     }
     .outMobile{
         display: none;
+    }
+    .outTablet{
+        display: inline;
     }
 }
 @media (max-width: 992px) {
