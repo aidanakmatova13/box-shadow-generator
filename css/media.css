@@ -76,6 +76,9 @@
     .outValue{
         margin-left: 7px;
     }
+    .outMobile{
+        display: inline;
+    }
     .outTablet{
         display: unset;
     }
