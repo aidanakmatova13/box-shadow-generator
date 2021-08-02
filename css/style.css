@@ -36,6 +36,9 @@ body{
     display: inline;
     margin-left: 30px;
 }
+.shadowColor{
+    margin-left: 30px;
+}
 .box{
     width:200px;
     height: 200px;
@@ -50,6 +53,7 @@ body{
 }
 input{
     margin-bottom: 40px;
+    margin-left: 30px;
 }
 label{
     font-size: 25px;
