@@ -46,11 +46,12 @@ function cssGenerator(){
     out.innerHTML = `Box-shadow:  ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} <br>`
     out.innerHTML += `- webkit-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} <br>`
     out.innerHTML += `- mox-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
-
     if (outset.checked){
-        box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
-    } else {
         box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value} inset`
+    } else {
+        box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
     }
+    // console.log(outset.checked)
+    // let shadow = outset.checked ? "" : "inset"
 }
 cssGenerator() // вызов функции
